@@ -1,0 +1,28 @@
+import React from 'react';
+import NewWindow from './icons/NewWindow';
+import './Footer.css';
+
+const Footer: React.FC = () => {
+  return (
+    <footer className="footer">
+      <div className="footer__content">
+        <div className="footer__source">
+          <label htmlFor="source" className="footer__source-title">
+            Source
+          </label>
+          <a
+            href="https://en.wikitionary.org/wiki/keybaord"
+            className="footer__source-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://en.wikitionary.org/wiki/keybaord
+            <NewWindow />
+          </a>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

@@ -1,5 +1,5 @@
 import React from 'react';
-import './SelectFont.css'; // Import the CSS file
+import './SelectFont.css';
 
 const Index: React.FC = () => {
   const handleFont = (e: React.ChangeEvent<HTMLSelectElement>) => {
@@ -13,7 +13,6 @@ const Index: React.FC = () => {
         <option value="sans-serif">Sans Serif</option>
         <option value="serif">Serif</option>
         <option value="Times New Roman">Times New Roman</option>
-        {/* Add more options here */}
       </select>
       <span className="select-arrow"></span>
     </div>

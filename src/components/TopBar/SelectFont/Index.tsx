@@ -12,7 +12,7 @@ const Index: React.FC = () => {
       <select className="select-font" onChange={handleFont}>
         <option value="sans-serif">Sans Serif</option>
         <option value="serif">Serif</option>
-        <option value="Times New Roman">Times New Roman</option>
+        <option value="monospace">Mono</option>
       </select>
       <span className="select-arrow"></span>
     </div>

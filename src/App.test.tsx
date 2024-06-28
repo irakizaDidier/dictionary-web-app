@@ -1,9 +1,9 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders search box with placeholder text', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+
+  const inputElement = screen.getByPlaceholderText(/Search for any word/i);
+  expect(inputElement).toBeInTheDocument();
 });
